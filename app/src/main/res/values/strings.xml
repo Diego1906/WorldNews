@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">World News</string>
+    <string name="technologyTitle">Tecnologia</string>
+    <string name="politicsTitle">Política</string>
+    <string name="businessTitle">Negócios</string>
+    <string name="worldTitle">Mundo</string>
+    <string name="scienceTitle">Ciência</string>
+    <string name="newsTitle">Notícias</string>
+    <string name="technologySection">technology</string>
+    <string name="politicsSection">politics</string>
+    <string name="businessSection">business</string>
+    <string name="worldSection">world</string>
+    <string name="scienceSection">science</string>
+    <string name="keyTitleActivity">titleActivity</string>
+    <string name="keySectionName">sectionName</string>
+    <string name="no_news_found">No news found</string>
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="title_text_tools">Título</string>
+    <string name="date_text_tools">12.12.2019</string>
+    <string name="section_text_tools">Seção</string>
+    <string name="time_text_tools">09:00 PM</string>
+</resources>

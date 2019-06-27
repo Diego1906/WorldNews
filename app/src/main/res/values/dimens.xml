@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zero_dip">0dp</dimen>
+    <dimen name="two_dip">2dp</dimen>
+    <dimen name="layout_marginTop_text_view_main">6dp</dimen>
+    <dimen name="sixteen_dip">16dp</dimen>
+    <dimen name="layout_height_text_view_main">60dp</dimen>
+    <dimen name="text_size_date_time">14sp</dimen>
+    <dimen name="text_size_secao_name">16sp</dimen>
+    <dimen name="text_size_twenty">20sp</dimen>
+    <dimen name="text_size_text_view_main">24sp</dimen>
+</resources>

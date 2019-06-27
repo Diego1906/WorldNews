@@ -1,0 +1,23 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="StyleTextViewMainActivity">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/text_size_text_view_main</item>
+        <item name="android:layout_marginTop">@dimen/layout_marginTop_text_view_main</item>
+        <item name="android:paddingLeft">@dimen/sixteen_dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/layout_height_text_view_main</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="StyleMatchParentDefault">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+</resources>

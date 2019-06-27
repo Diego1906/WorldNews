@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/StyleMatchParentDefault"
+    android:orientation="vertical"
+    android:padding="@dimen/sixteen_dip"
+    tools:context=".MainActivity">
+
+    <ScrollView style="@style/StyleMatchParentDefault">
+
+        <LinearLayout
+            style="@style/StyleMatchParentDefault"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/sixteen_dip"
+                android:src="@drawable/logo_news" />
+
+            <Button
+                android:id="@+id/technology_text_view"
+                style="@style/StyleTextViewMainActivity"
+                android:background="@color/color_technology"
+                android:text="@string/technologyTitle" />
+
+            <Button
+                android:id="@+id/politics_text_view"
+                style="@style/StyleTextViewMainActivity"
+                android:background="@color/color_politics"
+                android:text="@string/politicsTitle" />
+
+            <Button
+                android:id="@+id/business_text_view"
+                style="@style/StyleTextViewMainActivity"
+                android:background="@color/color_business"
+                android:text="@string/businessTitle" />
+
+            <Button
+                android:id="@+id/world_text_view"
+                style="@style/StyleTextViewMainActivity"
+                android:background="@color/color_world"
+                android:text="@string/worldTitle" />
+
+            <Button
+                android:id="@+id/science_text_view"
+                style="@style/StyleTextViewMainActivity"
+                android:background="@color/color_science"
+                android:text="@string/scienceTitle" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

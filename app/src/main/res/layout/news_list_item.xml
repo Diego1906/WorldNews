@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_list_item"
+    android:orientation="vertical"
+    android:padding="@dimen/sixteen_dip">
+
+    <LinearLayout
+        android:id="@+id/linear_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/publication_section_name"
+            android:layout_width="@dimen/zero_dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="bottom"
+            android:maxLines="1"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/text_size_secao_name"
+            tools:text="@string/section_text_tools" />
+
+        <LinearLayout
+            android:layout_width="@dimen/zero_dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/sixteen_dip"
+            android:layout_marginLeft="@dimen/sixteen_dip"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/publication_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text_size_date_time"
+                tools:text="@string/date_text_tools" />
+
+            <TextView
+                android:id="@+id/publication_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text_size_date_time"
+                tools:text="@string/time_text_tools" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/two_dip"
+        android:layout_marginTop="@dimen/two_dip"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/publication_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="left"
+        android:maxLines="2"
+        android:textAllCaps="true"
+        android:textColor="@color/color_gray_title"
+        android:textSize="@dimen/text_size_twenty"
+        tools:text="@string/title_text_tools" />
+
+</LinearLayout>
